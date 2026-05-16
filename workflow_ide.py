@@ -1,5 +1,5 @@
 # # # # # # ==============================================================================
-# # # # # # FILE LOCATION: Dynamic_Scorecard_System/scorecard_ui.py
+# # # # # # FILE LOCATION: AutomateFlow_Studio/workflow_ide.py
 # # # # # # ==============================================================================
 
 # # # # # import sys
@@ -418,7 +418,7 @@ from concurrent.futures import ThreadPoolExecutor
         
 # # # # #         # Header
 # # # # #         header_layout = QHBoxLayout()
-# # # # #         self.title_lbl = QLabel("Dynamic Scorecard System")
+# # # # #         self.title_lbl = QLabel("AutomateFlow Studio")
 # # # # #         self.title_lbl.setObjectName("mainTitle")
 # # # # #         header_layout.addWidget(self.title_lbl)
         
@@ -547,10 +547,10 @@ from concurrent.futures import ThreadPoolExecutor
 # # # # #             except Exception as e:
 # # # # #                 QMessageBox.critical(self, "Error", f"Could not delete file: {e}")
 
-# # # # # class ScorecardUI(QMainWindow):
+# # # # # class AutomateFlowIDE(QMainWindow):
 # # # # #     def __init__(self):
 # # # # #         super().__init__()
-# # # # #         self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+# # # # #         self.setWindowTitle("AutomateFlow Studio - Dashboard")
 # # # # #         self.resize(1600, 1000)
         
 # # # # #         self.processes = {"Main_Process": []} 
@@ -577,7 +577,7 @@ from concurrent.futures import ThreadPoolExecutor
 # # # # #     def show_dashboard(self):
 # # # # #         self.dashboard.refresh_configs()
 # # # # #         self.stacked_widget.setCurrentIndex(0)
-# # # # #         self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+# # # # #         self.setWindowTitle("AutomateFlow Studio - Dashboard")
         
 # # # # #         # Hide Editor Docks
 # # # # #         self.dock_pipeline.hide()
@@ -1578,14 +1578,14 @@ from concurrent.futures import ThreadPoolExecutor
 
 # # # # # if __name__ == "__main__":
 # # # # #     app = QApplication(sys.argv)
-# # # # #     window = ScorecardUI()
+# # # # #     window = AutomateFlowIDE()
 # # # # #     window.show()
 # # # # #     sys.exit(app.exec_())
 
 
 
 # # # # # ==============================================================================
-# # # # # FILE LOCATION: Dynamic_Scorecard_System/scorecard_ui.py
+# # # # # FILE LOCATION: AutomateFlow_Studio/workflow_ide.py
 # # # # # ==============================================================================
 
 # # # # import sys
@@ -2004,7 +2004,7 @@ from concurrent.futures import ThreadPoolExecutor
         
 # # # #         # Header
 # # # #         header_layout = QHBoxLayout()
-# # # #         self.title_lbl = QLabel("Dynamic Scorecard System")
+# # # #         self.title_lbl = QLabel("AutomateFlow Studio")
 # # # #         self.title_lbl.setObjectName("mainTitle")
 # # # #         header_layout.addWidget(self.title_lbl)
         
@@ -2117,10 +2117,10 @@ from concurrent.futures import ThreadPoolExecutor
 # # # #             except Exception as e:
 # # # #                 QMessageBox.critical(self, "Error", f"Could not delete file: {e}")
 
-# # # # class ScorecardUI(QMainWindow):
+# # # # class AutomateFlowIDE(QMainWindow):
 # # # #     def __init__(self):
 # # # #         super().__init__()
-# # # #         self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+# # # #         self.setWindowTitle("AutomateFlow Studio - Dashboard")
 # # # #         self.resize(1600, 1000)
         
 # # # #         self.processes = {"Main_Process": []} 
@@ -2147,7 +2147,7 @@ from concurrent.futures import ThreadPoolExecutor
 # # # #     def show_dashboard(self):
 # # # #         self.dashboard.refresh_configs()
 # # # #         self.stacked_widget.setCurrentIndex(0)
-# # # #         self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+# # # #         self.setWindowTitle("AutomateFlow Studio - Dashboard")
         
 # # # #         # Hide Editor Docks
 # # # #         self.dock_pipeline.hide()
@@ -3173,7 +3173,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 # # # # if __name__ == "__main__":
 # # # #     app = QApplication(sys.argv)
-# # # #     window = ScorecardUI()
+# # # #     window = AutomateFlowIDE()
 # # # #     window.show()
 # # # #     sys.exit(app.exec_())
 
@@ -3181,7 +3181,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 
 # # # # ==============================================================================
-# # # # FILE LOCATION: Dynamic_Scorecard_System/scorecard_ui.py
+# # # # FILE LOCATION: AutomateFlow_Studio/workflow_ide.py
 # # # # ==============================================================================
 
 # # # import sys
@@ -3600,7 +3600,7 @@ from concurrent.futures import ThreadPoolExecutor
         
 # # #         # Header
 # # #         header_layout = QHBoxLayout()
-# # #         self.title_lbl = QLabel("Dynamic Scorecard System")
+# # #         self.title_lbl = QLabel("AutomateFlow Studio")
 # # #         self.title_lbl.setObjectName("mainTitle")
 # # #         header_layout.addWidget(self.title_lbl)
         
@@ -3713,10 +3713,10 @@ from concurrent.futures import ThreadPoolExecutor
 # # #             except Exception as e:
 # # #                 QMessageBox.critical(self, "Error", f"Could not delete file: {e}")
 
-# # # class ScorecardUI(QMainWindow):
+# # # class AutomateFlowIDE(QMainWindow):
 # # #     def __init__(self):
 # # #         super().__init__()
-# # #         self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+# # #         self.setWindowTitle("AutomateFlow Studio - Dashboard")
 # # #         self.resize(1600, 1000)
         
 # # #         self.processes = {"Main_Process": []} 
@@ -3743,7 +3743,7 @@ from concurrent.futures import ThreadPoolExecutor
 # # #     def show_dashboard(self):
 # # #         self.dashboard.refresh_configs()
 # # #         self.stacked_widget.setCurrentIndex(0)
-# # #         self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+# # #         self.setWindowTitle("AutomateFlow Studio - Dashboard")
         
 # # #         # Hide Editor Docks
 # # #         self.dock_pipeline.hide()
@@ -4813,14 +4813,14 @@ from concurrent.futures import ThreadPoolExecutor
 
 # # # if __name__ == "__main__":
 # # #     app = QApplication(sys.argv)
-# # #     window = ScorecardUI()
+# # #     window = AutomateFlowIDE()
 # # #     window.show()
 # # #     sys.exit(app.exec_())
 
 
 
 # # # ==============================================================================
-# # # FILE LOCATION: Dynamic_Scorecard_System/scorecard_ui.py
+# # # FILE LOCATION: AutomateFlow_Studio/workflow_ide.py
 # # # ==============================================================================
 
 # # import sys
@@ -5351,7 +5351,7 @@ from concurrent.futures import ThreadPoolExecutor
         
 # #         # Header
 # #         header_layout = QHBoxLayout()
-# #         self.title_lbl = QLabel("Dynamic Scorecard System")
+# #         self.title_lbl = QLabel("AutomateFlow Studio")
 # #         self.title_lbl.setObjectName("mainTitle")
 # #         header_layout.addWidget(self.title_lbl)
         
@@ -5464,10 +5464,10 @@ from concurrent.futures import ThreadPoolExecutor
 # #             except Exception as e:
 # #                 QMessageBox.critical(self, "Error", f"Could not delete file: {e}")
 
-# # class ScorecardUI(QMainWindow):
+# # class AutomateFlowIDE(QMainWindow):
 # #     def __init__(self):
 # #         super().__init__()
-# #         self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+# #         self.setWindowTitle("AutomateFlow Studio - Dashboard")
 # #         self.resize(1600, 1000)
         
 # #         self.processes = {"Main_Process": []} 
@@ -5494,7 +5494,7 @@ from concurrent.futures import ThreadPoolExecutor
 # #     def show_dashboard(self):
 # #         self.dashboard.refresh_configs()
 # #         self.stacked_widget.setCurrentIndex(0)
-# #         self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+# #         self.setWindowTitle("AutomateFlow Studio - Dashboard")
         
 # #         # Hide Editor Docks
 # #         self.dock_pipeline.hide()
@@ -6585,14 +6585,14 @@ from concurrent.futures import ThreadPoolExecutor
 
 # # if __name__ == "__main__":
 # #     app = QApplication(sys.argv)
-# #     window = ScorecardUI()
+# #     window = AutomateFlowIDE()
 # #     window.show()
 # #     sys.exit(app.exec_())
 
 
 
 # # ==============================================================================
-# # FILE LOCATION: Dynamic_Scorecard_System/scorecard_ui.py
+# # FILE LOCATION: AutomateFlow_Studio/workflow_ide.py
 # # ==============================================================================
 
 # import sys
@@ -7124,7 +7124,7 @@ from concurrent.futures import ThreadPoolExecutor
         
 #         # Header
 #         header_layout = QHBoxLayout()
-#         self.title_lbl = QLabel("Dynamic Scorecard System")
+#         self.title_lbl = QLabel("AutomateFlow Studio")
 #         self.title_lbl.setObjectName("mainTitle")
 #         header_layout.addWidget(self.title_lbl)
         
@@ -7237,10 +7237,10 @@ from concurrent.futures import ThreadPoolExecutor
 #             except Exception as e:
 #                 QMessageBox.critical(self, "Error", f"Could not delete file: {e}")
 
-# class ScorecardUI(QMainWindow):
+# class AutomateFlowIDE(QMainWindow):
 #     def __init__(self):
 #         super().__init__()
-#         self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+#         self.setWindowTitle("AutomateFlow Studio - Dashboard")
 #         self.resize(1600, 1000)
         
 #         self.processes = {"Main_Process": []} 
@@ -7267,7 +7267,7 @@ from concurrent.futures import ThreadPoolExecutor
 #     def show_dashboard(self):
 #         self.dashboard.refresh_configs()
 #         self.stacked_widget.setCurrentIndex(0)
-#         self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+#         self.setWindowTitle("AutomateFlow Studio - Dashboard")
         
 #         # Hide Editor Docks
 #         self.dock_pipeline.hide()
@@ -8377,7 +8377,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 # if __name__ == "__main__":
 #     app = QApplication(sys.argv)
-#     window = ScorecardUI()
+#     window = AutomateFlowIDE()
 #     window.show()
 #     sys.exit(app.exec_())
 
@@ -8386,7 +8386,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 
 # # # # # ==============================================================================
-# # # # # FILE LOCATION: Dynamic_Scorecard_System/scorecard_ui.py
+# # # # # FILE LOCATION: AutomateFlow_Studio/workflow_ide.py
 # # # # # ==============================================================================
 
 import sys
@@ -9292,7 +9292,7 @@ class DashboardWidget(QWidget):
         main_layout.setSpacing(20)
         
         header_layout = QHBoxLayout()
-        self.title_lbl = QLabel("Dynamic Scorecard System")
+        self.title_lbl = QLabel("AutomateFlow Studio")
         self.title_lbl.setObjectName("mainTitle")
         header_layout.addWidget(self.title_lbl)
         header_layout.addStretch()
@@ -9396,10 +9396,10 @@ class DashboardWidget(QWidget):
             except Exception as e:
                 QMessageBox.critical(self, "Error", f"Could not delete file: {e}")
 
-class ScorecardUI(QMainWindow):
+class AutomateFlowIDE(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+        self.setWindowTitle("AutomateFlow Studio - Dashboard")
         self.resize(1600, 1000)
         
         self.processes = {"Main_Process": []} 
@@ -9424,7 +9424,7 @@ class ScorecardUI(QMainWindow):
     def show_dashboard(self):
         self.dashboard.refresh_configs()
         self.stacked_widget.setCurrentIndex(0)
-        self.setWindowTitle("Dynamic Scorecard System - Dashboard")
+        self.setWindowTitle("AutomateFlow Studio - Dashboard")
         self.dock_pipeline.hide()
         self.dock_sandbox.hide()
         self.dock_terminal.hide()
@@ -10689,9 +10689,24 @@ class ScorecardUI(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = ScorecardUI()
+    window = AutomateFlowIDE()
     window.show()
     sys.exit(app.exec_())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t(app.exec_())
 
 
 

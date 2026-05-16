@@ -1,5 +1,5 @@
 # ==============================================================================
-# FILE LOCATION: Dynamic_Scorecard_System/Custom_Scripts/add_logic_sheet.py
+# FILE LOCATION: AutomateFlow_Studio/Custom_Scripts/add_logic_sheet.py
 # ==============================================================================
 
 import pandas as pd

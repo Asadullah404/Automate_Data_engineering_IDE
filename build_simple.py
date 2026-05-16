@@ -12,8 +12,8 @@ def aggressive_build():
             shutil.rmtree(folder, ignore_errors=True)
     
     # 2. DEFINITIONS
-    entry_point = 'scorecard_ui.py'
-    name = 'DynamicScorecard_PRO'
+    entry_point = 'workflow_ide.py'
+    name = 'AutomateFlow_PRO'
     
     # 3. BUILD PARAMETERS
     params = [

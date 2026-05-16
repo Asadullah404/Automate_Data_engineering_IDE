@@ -1,5 +1,5 @@
 # ==============================================================================
-# FILE LOCATION: Dynamic_Scorecard_System/excel_analyzer.py
+# FILE LOCATION: AutomateFlow_Studio/excel_analyzer.py
 # ==============================================================================
 
 import os
@@ -15,7 +15,7 @@ except ImportError:
 class ExcelReverseEngineer:
     """
     Analyzes an existing Excel workbook and attempts to reconstruct it as a 
-    Dynamic Scorecard Pipeline.
+    AutomateFlow Pipeline.
     """
 
     def __init__(self, filepath):
