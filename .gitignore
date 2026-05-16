@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Build and Dist
+build/
+dist/
+*.spec
+
+# Local config
+.env
+.vscode/
+.idea/
